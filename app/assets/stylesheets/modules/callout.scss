@@ -1,0 +1,22 @@
+@import 'variables';
+
+body {
+  background: $callout-color;
+}
+
+ul.list-examples {
+  list-style: none;
+  border: 2px solid black;
+
+  li {
+    color: pink;
+    border: 2px solid gray;
+    a {
+      color: purple;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
